@@ -46,3 +46,17 @@ Build the documentation site locally using the following steps.
    Once the server starts, you can view the documentation at `http://localhost:3000`.
 
 For more information on contributing to the documentation, see the [full contribution guidelines](CONTRIBUTING.md).
+/HillbillySlots/
+├── /src/
+│   ├── /components/
+│   │   └── SlotMachine.js           # Slot machine UI + gameplay + Firebase + AdMob
+│   ├── /services/
+│   │   └── firebaseConfig.js        # Your Firebase config here
+│   └── App.js                      # Main app entry + auth & UI
+├── /functions/
+│   └── index.js                    # Cloud Function for daily login bonus
+├── .gitignore
+├── package.json                   # Dependencies
+├── README.md                      # Setup and run instructions
+SlotMachine.js
+App.jsfirebaseConfig.js
